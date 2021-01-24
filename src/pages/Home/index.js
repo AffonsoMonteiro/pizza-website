@@ -1,14 +1,14 @@
 import React from 'react';
 
 import NavBar from '../../components/NavBar'
-import Hero from '../../components/Hero'
+import Main from '../../components/Main'
 import { Container } from './styled'
 
 function Home() {
     return(
         <Container >
             <NavBar />
-            <Hero />
+            <Main />
         </Container>
     )
 }
