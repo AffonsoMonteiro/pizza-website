@@ -37,6 +37,7 @@ export const MainItems = styled.div `
         border-radius: 4px;
         cursor: pointer;
         transition: .4s;
+        outline: none;
 
         &:hover {
             background-color: #FFC500;
