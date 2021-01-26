@@ -9,6 +9,7 @@ export const Nav = styled.nav `
     justify-content:center;
     align-items:center;
     font-weight: 700;
+    
  `
 
  export const NavLink = styled(Link) `

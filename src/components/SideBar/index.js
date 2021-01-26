@@ -5,8 +5,8 @@ import {SideBarContainer, Icon, CloseIcon, SideBarMenu, SideBarLink, SideBarRout
 function SideBar( {isOpen, toggle} ) {
 
     return(
-        <SideBarContainer isOpen={isOpen} onClick={toggle}>
-            <Icon>
+        <SideBarContainer isOpen={isOpen}  >
+            <Icon onClick={toggle} >
                 <CloseIcon />
             </Icon>
 

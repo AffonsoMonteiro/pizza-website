@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {MainContainer, MainContent, MainItems, Title, MainP  } from './styled'
+import {MainContainer, MainContent, MainItems, Title, MainP, MainBtn  } from './styled'
 import SideBar from '../SideBar'
 import NavBar from '../../components/NavBar'
 
@@ -19,7 +19,7 @@ function Main() {
                 <MainItems>
                     <Title>Melhor pizza de todas</Title>
                     <MainP>Dinheiro não compra felicidade, mas compra pizza que é a mesma coisa!</MainP>
-                    <button className="btn">Faça seu pedido</button>
+                    <MainBtn>Faça seu pedido</MainBtn>
                 </MainItems>
             </MainContent>
         </MainContainer>
