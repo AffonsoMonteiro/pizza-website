@@ -65,6 +65,7 @@ export const ProductButton = styled.button `
     border: none;
     width: 300px;
     background-color: #E31837;
+    border-radius: 4px;
     color: #FFF;
     transition: .4s ease-in-out;
 

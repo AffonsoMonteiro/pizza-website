@@ -23,7 +23,7 @@ function Products( {title, data} ) {
                     <ProductInfo> 
                         <ProductName> {product.name} </ProductName>
                         <ProductDesc> {product.desc} </ProductDesc>
-                        <ProductPrice> {product.price} </ProductPrice> 
+                        <ProductPrice>R$ {product.price} </ProductPrice> 
                         <ProductButton> Adicionar ao Carrinho </ProductButton>
                     </ProductInfo>
                 </ProductCard>
