@@ -33,28 +33,28 @@ export const productDataTwo = [
     {
       img: sweet2,
       alt: 'Donuts',
-      name: 'Doughlicious',
+      name: 'Donuts',
       desc:
-        'Belgian chocolate glazed donuts covered in icing with sprinkles on top',
-      price: '$9.99',
+        'Donuts com cobertura de chocolate belga, cobertos de glacê e granulado por cima',
+      price: '9.99',
       button: 'Add to Cart'
     },
     {
       img: sweet3,
-      alt: 'Ice Cream',
-      name: 'Caramel Wonder',
+      alt: 'Sorvete',
+      name: 'Sorvete de Coco',
       desc:
-        'Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick',
-      price: '$12.99',
+        'Sorvete coberto com caramelo e cobertura de chocolate com um palito de coco',
+      price: '12.99',
       button: 'Add to Cart'
     },
     {
       img: sweet1,
       alt: 'Brownie',
-      name: 'Brownie Bunch',
+      name: 'Brownie ',
       desc:
-        'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
-      price: '$9.99',
+        'brownie com fudge duplo coberto com pedaços de chocolate branco e nozes',
+      price: '9.99',
       button: 'Add to Cart'
     }
   ];

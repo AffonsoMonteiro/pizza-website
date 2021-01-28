@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {    ProductsContainer,
             ProductsTitle,
             ProductsWrapper,
@@ -9,13 +8,12 @@ import {    ProductsContainer,
             ProductName, 
             ProductDesc,
             ProductPrice,
-            ProductButton   } from './styled'
+            ProductButton   } from '../Products/styled'
 
-
-function Products( {title, data} ) {
+export default function Desserts({data}) {
     return (
         <ProductsContainer>
-            <ProductsTitle> {title} </ProductsTitle>
+            <ProductsTitle> Escolha sua Sobremesa </ProductsTitle>
 
             <ProductsWrapper>
                 {data.map((product, index) => 
@@ -27,12 +25,10 @@ function Products( {title, data} ) {
                         <ProductPrice>R$ {product.price} </ProductPrice> 
                         <ProductButton> Adicionar ao Carrinho </ProductButton>
                     </ProductInfo>
-                </ProductCard>
+                    </ProductCard>
                 )}
             </ProductsWrapper>
-            
+
         </ProductsContainer>
     )
 }
-
-export default Products;
